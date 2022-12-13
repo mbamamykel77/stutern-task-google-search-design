@@ -11,7 +11,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: red;
 }
 
 @font-face {
@@ -101,6 +100,8 @@ a:hover {
 
   /* end of header section */
 
+
+  /* Header-sub-section */
 .header-sub {
     margin-top: 30px;
     margin-left: 170px;
@@ -132,6 +133,10 @@ a:hover {
     background-color: rgb(230, 230, 230);
 }
 
+/* End of header sub-section */
+
+
+/* About section */
 .about-header {
     margin-left: 170px;
     color: gray;
@@ -256,7 +261,6 @@ a:hover {
     border-radius: 20px;
     padding: 10px;
     height: 130px;
-
 }
 
 .age-text2 {
@@ -288,29 +292,14 @@ a:hover {
     font-size: 12px;
     color: gray;
 }
+/* end of about section */
 
 
-.wiki-text {
-    margin-left: 170px;
-    line-height: 15px;
-    color: rgb(73, 73, 73);
-}
-
-.wiki-text i {
-    margin-left: 10px;
-}
-
-.wiki-text h2 {
-    font-weight: lighter;
-}
-.wiki-text span {
-    color: grey;
-}
-
+/* top story section */
 .top-story {
     margin-left: 170px;
     line-height: 15px;
-    margin-top: 70px;
+    margin-top: 40px;
     color: rgb(73, 73, 73);
 }
 
@@ -325,7 +314,6 @@ a:hover {
 .container-div {
     display: flex;
 }
-
 
 .pele {
     margin-left: 170px;
@@ -372,5 +360,35 @@ margin-left: -5px;
 }
 
 .div2-line2 {
-    margin-top: 30px;
+    margin-top: 18px;
 }
+/* end of top section */
+
+
+/* wikipedia text */
+
+.wiki-text {
+    margin-left: 170px;
+    line-height: 22px;
+    color: rgb(73, 73, 73);
+    width: 45%;
+    margin-top: 50px;
+}
+
+.wiki-text p {
+    margin-bottom: 2px;
+}
+
+.wiki-text i {
+    margin-left: 10px;
+}
+
+.wiki-text h2 {
+    font-weight: lighter;
+    margin-bottom: -12px;
+}
+.wiki-text span {
+    color: grey;
+}
+
+/* end of wikipedia text */
