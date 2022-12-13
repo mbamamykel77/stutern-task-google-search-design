@@ -1,6 +1,25 @@
 body {
     margin: auto;
+    padding-bottom: 150px;
+    font-family: myFirstFont;
+    src: url(4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2);
   }
+a {
+    color: rgb(72, 72, 199);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2);
+}
+
+  /* Header section */
 .header {
     display: flex;
     margin-top: 30px;
@@ -8,7 +27,7 @@ body {
 
 .logo img{
     width: 40%;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 5px;
 }
 
@@ -18,7 +37,7 @@ body {
     height: 50px;
     border-radius: 30px;
     margin-top: -10px;
-    margin-left: -40px;
+    margin-left: -60px;
     box-shadow: 1px 1px 5px 2px rgb(228, 228, 228);
 }
 
@@ -79,3 +98,279 @@ body {
     border-radius: 50%;
     margin-top: 5px;
   }
+
+  /* end of header section */
+
+.header-sub {
+    margin-top: 30px;
+    margin-left: 170px;
+    display: flex;
+}
+
+.sub-1 i{
+    color: rgb(32, 118, 189);
+    font-size: 10px;
+    margin-right: 20px;
+}
+
+  .sub-2 i{
+    font-size: 10px;
+    margin-right: 20px;
+    color: grey;
+    word-spacing: 5px;
+  }
+
+  .tools {
+    margin-top: -5px;
+    margin-left: 180px;
+    color: gray;
+  }
+
+  hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(230, 230, 230);
+}
+
+.about-header {
+    margin-left: 170px;
+    color: gray;
+}
+
+.ronaldo-container {
+    margin-left: 170px;
+    display: flex;
+    line-height: 25px;
+}
+
+.ronaldo-header h2{
+    font-weight: lighter;
+}
+
+.ronaldo-header span{
+    color: gray;
+    font-size: 15px;
+    margin-top: -20px;
+}
+
+.ronaldo-header span i {
+    margin-left: 10px;
+    color: black;
+}
+
+.content-container {
+    margin-left: 40px;
+    display: flex;
+    margin-top: 35px;
+}
+.ronaldo-content {
+    margin-right: 13px;
+    background-color: rgb(224, 243, 255);
+    color: blue;
+    width: auto;
+    padding: 5px 18px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.image-container {
+    display: flex;
+    margin-bottom: -90px;
+}
+
+
+.top-imageContainer1 {
+    display: flex;
+    margin-left: 170px;
+    width: 49%;
+}
+
+.top-image1 img {
+    width: 74%;
+    border-radius: 20px 0px 0px 20px;
+    clip-path: inset(0px 0px 120px 0px);
+
+}
+
+.top-image2 {
+    margin-top: 5px;
+}
+
+.top-image2 img{
+    width: 60%;
+    margin-left: -100px;
+    clip-path: inset(0px 0px 70px 10px);
+    border-bottom-right-radius: 20px;
+}
+
+.bottom {
+    margin-top: -72px;
+}
+
+.top-imageContainer2 {
+    width: 17%;
+    margin-left: -180px;
+}
+
+.social {
+    font-size: 12px;
+    color: gray;
+    margin-left: 5px;
+}
+
+.text {
+    margin-top: -7px;
+    margin-left: 5px;
+}
+
+.text span {
+    font-size: 12px;
+}
+
+.time {
+    font-size: 12px;
+    color: gray;
+    margin-left: 5px;
+}
+
+.top-imageContainer3 {
+    margin-left: 30px;
+}
+
+.top-sub3 {
+    display: flex;
+}
+
+.age {
+    background-color: rgb(224, 243, 255);
+    margin-right: 10px;
+    width: 25%;
+    border-radius: 20px;
+    padding: 10px;
+    height: 130px;
+}
+
+.current-team {
+    background-color: rgb(221, 242, 255);
+    width: 25%;
+    border-radius: 20px;
+    padding: 10px;
+    height: 130px;
+
+}
+
+.age-text2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.team-text2 {
+    margin-bottom: 10px;
+}
+
+.social-2 {
+    font-size: 12px;
+    color: gray;
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+
+.top-imageContainer3-text2 {
+    width: 80%;
+    margin-left: 10px;
+}
+
+.text span {
+    font-size: 12px;
+}
+
+.top-imageContainer3-text2 span {
+    font-size: 12px;
+    color: gray;
+}
+
+
+.wiki-text {
+    margin-left: 170px;
+    line-height: 15px;
+    color: rgb(73, 73, 73);
+}
+
+.wiki-text i {
+    margin-left: 10px;
+}
+
+.wiki-text h2 {
+    font-weight: lighter;
+}
+.wiki-text span {
+    color: grey;
+}
+
+.top-story {
+    margin-left: 170px;
+    line-height: 15px;
+    margin-top: 70px;
+    color: rgb(73, 73, 73);
+}
+
+.top-story h2, h3 {
+    font-weight: lighter;
+}
+.top-story a {
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+
+.container-div {
+    display: flex;
+}
+
+
+.pele {
+    margin-left: 170px;
+}
+
+.pele img {
+margin-left: -5px;
+}
+
+.pele p{
+    width: 40%;
+}
+
+.pele span {
+    color: gray;
+}
+
+.ronaldo-cry {
+    display: flex;
+    margin-left: 170px;
+}
+
+.ronaldo-cry span {
+    color: gray;
+}
+
+.ronaldo-cry p {
+    width: 35%;
+}
+
+.ronaldo-cry img {
+    width: 120px;
+    margin-left: -350px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.line2 img{
+    margin-left: -385px;
+}
+
+.div2 {
+    margin-left: -450px;
+}
+
+.div2-line2 {
+    margin-top: 30px;
+}
