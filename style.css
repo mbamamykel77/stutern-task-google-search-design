@@ -328,6 +328,7 @@ a:hover {
     line-height: 15px;
     margin-top: 40px;
     color: rgb(73, 73, 73);
+    border-bottom: 1px solid rgb(236, 236, 236);
     
 }
 
@@ -341,16 +342,17 @@ a:hover {
 
 .container-div {
     display: flex;
+    padding-top: 10px;
 }
 .div1 {
-    border-right: 1px solid  rgb(216, 216, 216);
+    border-right: 1px solid  rgb(236, 236, 236);
     width: 70%;
     padding-right: 10px;
 }
 
 .pele {
     margin-left: 170px;
-    border-bottom: 1px solid  rgb(216, 216, 216);
+    border-bottom: 1px solid  rgb(236, 236, 236);
     width: 59%;
 }
 
@@ -369,7 +371,7 @@ margin-left: -5px;
 .ronaldo-cry {
     display: flex;
     margin-left: 170px;
-    border-bottom: 1px solid  rgb(216, 216, 216);
+    border-bottom: 1px solid  rgb(236, 236, 236);
     width: 65%;
 }
 
@@ -412,7 +414,7 @@ margin-left: -5px;
 .ronaldo-cry2 {
     display: flex;
     margin-left: 170px;
-    border-bottom: 1px solid rgb(190, 190, 190);
+    border-bottom: 1px solid rgb(236, 236, 236);
 }
 
 .ronaldo-cry2 span {
