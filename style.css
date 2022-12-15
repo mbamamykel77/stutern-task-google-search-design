@@ -608,3 +608,100 @@ margin-left: -5px;
     border-left: 1px solid rgb(216, 216, 216);
     padding-left: 25px;
 }
+
+/* Stat section */
+
+.div-stat a {
+    color: black;
+}
+.div-stat span{
+    color: gray;
+    font-size: 13px;
+}
+
+.div-stat th{
+    text-align: start;
+    margin-bottom: 10px;
+    border-bottom: 1px solid;
+    color: gray;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.div-stat tr {
+    margin-bottom: 50px;
+    line-height: 40px;
+    margin-right: 80px;
+}
+
+
+/* SOCIALS */
+.profile-socials {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -20px;
+}
+
+.profile-socials a {
+    color: rgb(43, 43, 43);
+}
+.profile-socials p {
+    margin-top: -3px;
+    margin-left: -7px;
+}
+
+.twitter {
+    margin-top: -3px;
+    margin-right: 15px;
+}
+.twitter p{
+    margin-left: 1px;
+}
+.facebook {
+    margin-top: -5px;
+}
+.facebook p {
+    margin-top: -12px;
+}
+
+.youtube {
+    margin-top: -4px;
+}
+
+/* people Search For */
+.peopleSearch-container{
+    display: flex;
+}
+
+.peopleSearch-container a {
+    color: rgb(43, 43, 43);
+}
+
+.leftMain-pane {
+    /* background-color: rgb(196, 194, 194); */
+    width: 50%;
+    margin-left: 170px;
+    margin-top: -250px;
+}
+
+.lmp-content {
+    margin-bottom: 30px;
+}
+.lmp-content a {
+    font-weight: normal;
+}
+.lmp-content i {
+    margin-left: 10px;
+    color: gray;
+}
+.lmp-content h3 {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.lmp-content p{
+    color: rgb(99, 99, 99);
+}
+
+.lmp-content span {
+    color: gray;
+}
