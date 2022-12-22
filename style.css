@@ -494,23 +494,32 @@ margin-left: -5px;
 
 .about2-text {
     margin-top: 20px;
-    width: 400px;
+    width: 350px;
     color: rgb(94, 94, 94);
+}
+.about2-text p {
+    font-size: 15px;
 }
 
 .born {
-    width: 400px;
     margin-top: 20px;
+}
+.born p {
+    font-size: 15px;
 }
 
 .children {
-    width: 400px;
     margin-top: 20px;
+}
+.children p {
+    font-size: 15px;
 }
 
 .team {
-    width: 400px;
     margin-top: 20px;
+}
+.team p {
+    font-size: 15px;
 }
 
 .team span {
@@ -518,19 +527,22 @@ margin-left: -5px;
 }
 
 .salary {
-    width: 400px;
     margin-top: 20px;
     line-height: 35px;
+}
+.salary p {
+    font-size: 15px;
 }
 .salary span {
     color: rgb(94, 94, 94);
 }
 
 .award {
-    width: 400px;
     margin-top: 20px;
 }
-
+.award p {
+    font-size: 15px;
+}
 .panel {
     display: flex;
 }
@@ -538,8 +550,8 @@ margin-left: -5px;
 .shield {
     display: flex;
     border: 1px solid rgb(216, 216, 216);
-    width: 250px;
-    height: 35px;
+    width: 300px;
+    height: 30px;
     margin-top: 20px;
     border-radius: 30px;
 }
@@ -548,6 +560,7 @@ margin-left: -5px;
 }
 
 .shield p {
+    font-size: 15px;
     margin-top: 7px;
     margin-left: 10px;
     color: rgb(94, 94, 94);
@@ -565,7 +578,7 @@ margin-left: -5px;
 .feedback {
     color: rgb(94, 94, 94);
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 .feedback p{
     font-size: 13px;
@@ -581,7 +594,7 @@ margin-left: -5px;
     font-weight: normal;
 }
 .chev-stat {
-    margin-left: 280px;
+    margin-left: 260px;
     height: 30px;
     width: 30px;
     margin-top: 20px;
@@ -602,14 +615,17 @@ margin-left: -5px;
     width: 850px;
 }
 .pane2 {
+    width: 350px;
     margin-top: 40px;
     margin-left: 40px;
-    /* background-color: blueviolet; */
     border-left: 1px solid rgb(216, 216, 216);
     padding-left: 25px;
 }
 
 /* Stat section */
+.div-stat {
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
 
 .div-stat a {
     color: black;
@@ -622,7 +638,7 @@ margin-left: -5px;
 .div-stat th{
     text-align: start;
     margin-bottom: 10px;
-    border-bottom: 1px solid;
+    /* border-bottom: 1px solid rgb(236, 236, 236); */
     color: gray;
     font-size: 13px;
     font-weight: normal;
@@ -635,11 +651,12 @@ margin-left: -5px;
 }
 
 
-/* SOCIALS */
+/* profile section*/
 .profile-socials {
     display: flex;
     justify-content: space-evenly;
     margin-left: -20px;
+    border-bottom: 1px solid rgb(236, 236, 236);
 }
 
 .profile-socials a {
@@ -677,6 +694,7 @@ margin-left: -5px;
     color: rgb(43, 43, 43);
 }
 
+/* LEFT MAIN PANE */
 .leftMain-pane {
     /* background-color: rgb(196, 194, 194); */
     width: 50%;
@@ -704,4 +722,134 @@ margin-left: -5px;
 
 .lmp-content span {
     color: gray;
+}
+
+
+/* VIDEO SECTION */
+.videoSec-container {
+    margin-top: 60px;
+}
+.video-sec{
+    margin-left: 170px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(236, 236, 236);
+    padding-bottom: 10px;
+    width: 50%;
+}
+.video-sec h2{
+    font-size: 23px;
+    border-bottom: 1px solid rgb(236, 236, 236);
+    font-weight: normal;
+    width: 100%;
+}
+
+.video-sec i {
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+.vid-1 {
+    display: flex;
+    line-height: 23px;
+}
+
+.vid-text {
+    margin-left: 10px;
+    margin-top: -13px;
+}
+.vid-text a {
+    font-size: 14px;
+}
+.vid-1 p{
+    font-size: 16px;
+}
+.vid-1 span {
+    color: gray;
+    font-size: 15px;
+}
+
+.vid-span2 {
+    color: gray;
+    font-size: 15px;
+}
+.vid-youtube {
+    line-height: 3px;
+}
+/* End of video section */
+
+.content-underVideo {
+    margin-left: 170px;
+    margin-top: 50px;
+    width: 48%;
+}
+
+/* twitter link section */
+
+.twitter-linkSec {
+    margin-left: 170px;
+    margin-top: 60px;
+}
+.twitter-linkSec-top {
+    line-height: 1px;
+    margin-bottom: 110px;
+}
+
+.twitter-link {
+    display: flex;
+}
+.card {
+    width: 18%;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(192, 192, 192);
+}
+.card img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    margin-top: -80px;
+    clip-path: inset(20px 0px 20px 0px);
+}
+
+.levi {
+    margin-top: -60px;
+}
+.levi h3 {
+    margin-top: -50px;
+}
+.levi img {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    margin-top: -80px;
+    clip-path: inset(80px 0px 80px 0px); 
+}
+
+.card h3 {
+    font-weight: normal;
+    font-size: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: rgb(102, 102, 102);
+    /* margin-top: -70px; */
+    line-height: 20px;
+}
+.card p {
+    padding-left: 15px;
+    color: rgb(102, 102, 102);
+    padding-top: 130px;
+}
+.card span {
+    color: gray;
+}
+
+.levi {
+    margin-top: -60px;
+}
+.levi h3 {
+    margin-top: -50px;
+}
+.levi img {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    margin-top: -80px;
+    clip-path: inset(80px 0px 80px 0px); 
 }
