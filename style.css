@@ -788,6 +788,7 @@ margin-left: -5px;
 .twitter-linkSec {
     margin-left: 170px;
     margin-top: 60px;
+    margin-bottom: 80px;
 }
 .twitter-linkSec-top {
     line-height: 1px;
@@ -852,4 +853,70 @@ margin-left: -5px;
     width: 100%;
     margin-top: -80px;
     clip-path: inset(80px 0px 80px 0px); 
+}
+
+/* Under twitter section */
+.under-twitter {
+    margin-left: 170px;
+    width: 50%;
+    line-height: 23px;
+}
+
+.related-search {
+    margin-left: 170px;
+    margin-top: 50px;
+    width: 50%;
+}
+
+.related-search h3 {
+    font-size: 23px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.related-search i {
+    color: gray;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.related-searchImg {
+    /* display: flex; */
+    margin-left: -10px;
+    margin-top: 30px;
+}
+
+.related-searchImg img {
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+/* Footer-search */
+.footer-search {
+    margin-left: 370px;
+    margin-top: 100px;
+}
+.footer-searchImg {
+    display: flex;
+}
+.footer-search i {
+    margin-top: 20px;
+    color: blue;
+    margin-left: 10px;
+}
+
+.search-count {
+    margin-left: 45px;
+    display: flex   ;
+}
+.search-count a {
+    margin-right: 11px;
+    color: blue;
+    margin-top: -10px;
+}
+
+.search-count p{
+    margin-left: 40px;
+    margin-top: 1px;
 }
