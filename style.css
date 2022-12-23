@@ -32,7 +32,7 @@ a:hover {
 
 .search-container {
     display: flex;
-    width: 630px;
+    width: 730px;
     height: 50px;
     border-radius: 30px;
     margin-top: -10px;
@@ -41,7 +41,7 @@ a:hover {
 }
 
 .search-bar {
-    width: 500px;
+    width: 600px;
     height: 25px;
     border-radius: 30px;
     display: flex;
@@ -53,10 +53,11 @@ a:hover {
   .search-bar input {
     margin-left: 10px;
     margin-bottom: 4px;
+    margin-top: 2px;
     height: 40px;
     border: none;
     outline: none;
-    width: 500px;
+    width: 600px;
     border-radius: 30px;
     /* background-color: brown; */
   }
@@ -78,7 +79,7 @@ a:hover {
 
   .icon-3 {
     display: flex;
-    margin-left: 400px;
+    margin-left: 310px;
     margin-top: -15px;
     padding: 10px;
   }
@@ -106,24 +107,23 @@ a:hover {
     margin-top: 30px;
     margin-left: 170px;
     display: flex;
-}
 
-.sub-1 i{
-    color: rgb(32, 118, 189);
-    font-size: 10px;
-    margin-right: 20px;
 }
-
-  .sub-2 i{
-    font-size: 10px;
+  .sub-1 i{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 12px;
+    font-size: 15px;
     margin-right: 20px;
     color: grey;
     word-spacing: 5px;
+    font-family: myFirstFont;
+    src: url(4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2);
   }
 
   .tools {
-    margin-top: -5px;
-    margin-left: 180px;
+    margin-top: 5px;
+    margin-left: 380px;
     color: gray;
   }
 
@@ -799,29 +799,18 @@ margin-left: -5px;
     display: flex;
 }
 .card {
+    margin-top: -80px;
     width: 18%;
     margin-right: 10px;
     border-radius: 10px;
     border: 1px solid rgb(192, 192, 192);
 }
+.card a:hover {
+    text-decoration: none;
+}
 .card img{
     border-radius: 10px 10px 0px 0px;
     width: 100%;
-    margin-top: -80px;
-    clip-path: inset(20px 0px 20px 0px);
-}
-
-.levi {
-    margin-top: -60px;
-}
-.levi h3 {
-    margin-top: -50px;
-}
-.levi img {
-    border-radius: 10px 10px 0px 0px;
-    width: 100%;
-    margin-top: -80px;
-    clip-path: inset(80px 0px 80px 0px); 
 }
 
 .card h3 {
@@ -830,7 +819,7 @@ margin-left: -5px;
     padding-left: 12px;
     padding-right: 12px;
     color: rgb(102, 102, 102);
-    /* margin-top: -70px; */
+    padding-top: 40px;
     line-height: 20px;
 }
 .card p {
@@ -841,18 +830,14 @@ margin-left: -5px;
 .card span {
     color: gray;
 }
-
-.levi {
-    margin-top: -60px;
-}
 .levi h3 {
-    margin-top: -50px;
+    margin-top: -60px;
 }
 .levi img {
     border-radius: 10px 10px 0px 0px;
     width: 100%;
-    margin-top: -80px;
-    clip-path: inset(80px 0px 80px 0px); 
+    margin-top: -50px;
+    clip-path: inset(50px 0px 60px 0px); 
 }
 
 /* Under twitter section */
@@ -902,7 +887,7 @@ margin-left: -5px;
 }
 .footer-search i {
     margin-top: 20px;
-    color: blue;
+    color: rgb(52, 165, 240);
     margin-left: 10px;
 }
 
@@ -912,7 +897,7 @@ margin-left: -5px;
 }
 .search-count a {
     margin-right: 11px;
-    color: blue;
+    color: rgb(52, 165, 240);
     margin-top: -10px;
 }
 
