@@ -582,12 +582,12 @@ h3 {
   color: rgb(63, 113, 248);
 }
 
-.feedback {
+.feedback1 {
   color: rgb(94, 94, 94);
   margin-top: 10px;
   margin-left: 20px;
 }
-.feedback p {
+.feedback1 p {
   font-size: 13px;
   margin-top: 20px;
   margin-left: 20px;
@@ -993,10 +993,10 @@ h3 {
   margin-left: 425px;
   margin-top: 40px;
 }
-.feedback1 {
+.feedback2 {
   border-bottom: 1px solid rgb(233, 230, 230);
 }
-.feedback1 i {
+.feedback2 i {
   margin-left: 445px;
 }
 .related-search2 > div > div {
